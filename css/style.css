@@ -1,0 +1,23 @@
+
+body{
+    font-size: 18px;
+    background-color:#171717;
+    font-family: 'Handlee', cursive;
+}
+.postcard{background-color: white; width: 500px; height: 350px; margin: auto; 
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);padding: 15px;
+}
+.post-header{overflow: hidden;}
+.post-header img{max-width: 13%; float: right; }
+.post-header h1 {margin: 0; padding-top: 15px;}
+.post-body {overflow: hidden;}
+.post-footer{ padding: 10px; text-align: center;}
+.post-footer input[type=submit]{border: none; border-bottom: 1px solid gray; background-color: lightgray}
+.post-body input[type=text]{border: none; border-bottom: 1px solid gray; width: 250px; margin-bottom: 10px; }
+
+
+input{ font-size: 18px; font-family: 'Handlee', cursive;}
+
+.left-part {float: left; width: 50%; font-weight: bold;}
+.right-part {padding-top: 15px; float: right; width: 50%;}
+.right-part input {display: block;}
